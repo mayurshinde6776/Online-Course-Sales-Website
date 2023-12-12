@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cartItems.forEach(item => {
             // Create a Bootstrap card for each cart item
             const cartItemCard = document.createElement("div");
-            cartItemCard.classList.add("card", "mb-3");
+            cartItemCard.classList.add("card", "mb-3", "card-border");
 
             // Create a row for the card body
             const cardRow = document.createElement("div");
@@ -102,9 +102,9 @@ function displaySummarySection(cartItems) {
 
     const summaryContainer = document.getElementById("summary-container");
     summaryContainer.innerHTML = `
-        <div class="row mt-4">
+        <div class="row mt-5">
             <div class="col-md-6">
-                <p class="cart-summary" >Total Courses in Cart: ${count}</p>
+                <p class="cart-summary" >Courses in Cart: ${count}</p>
             </div>
             <div class="col-md-6">
                 <p class="cart-summary" >Total Price: $${total}</p>
@@ -112,7 +112,7 @@ function displaySummarySection(cartItems) {
         </div>
         <div class="row mt-3">
             <div class="col-md-12">
-                <a href="#" class="btn btn-custom">CheckOut</a>
+                <a href="#" class="btn btn-custom">Checkout</a>
             </div>
         </div>
     `;

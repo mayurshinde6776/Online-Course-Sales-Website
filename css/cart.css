@@ -1,5 +1,5 @@
 .nav-icon {
-    max-height: 54px;
+    max-height: 80px;
     width: auto;
     transition: all 0.3s ease;
     transition-duration: 0.3s;
@@ -26,6 +26,7 @@
   
     color: #202c45;
     font-weight: 600;
+    text-decoration: none;
   
 }
 
@@ -51,13 +52,20 @@ h2,h5 {
 
 /* Button styles of summary */
 .btn-custom {
-    background-color: #202c45;
-    color: #fff;
-    border: none;
+    background-color:#b0cc36 ;
+    color: #202c45;
+    border: solid 2px #fff;
+    font-weight: 600;
 }
 
 .btn-custom:hover {
     background-color: #b0cc36;
-    color: #202c45;
+    color: #fff;
     border-color: #b0cc36;
+}
+.cart-body{
+    border: none;
+}
+.card-border{
+border: solid 1px #202c45;
 }

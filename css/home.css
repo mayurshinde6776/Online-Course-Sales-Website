@@ -1,7 +1,7 @@
 .nav-icon {
-    max-height: 54px;
+    max-height: 80px;
     width: auto;
-    transition: all 0.3s ease;
+    transition: all 0.s ease;
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
@@ -40,6 +40,7 @@
     background-color: #202c45;
     color: #fff;
     border: none;
+    font-weight: 600;
 }
 
 .btn-custom:hover {
@@ -47,6 +48,21 @@
     color: #202c45;
     border-color: #b0cc36;
 }
+
+.btn-hero-buy-now{
+background-color: #fff;
+border:solid 2px  #202c45;
+color: #202c45;
+font-weight: 600;
+
+}
+.btn-hero-buy-now:hover{
+background-color: #b0cc36;
+color: #fff;
+border: solid 2px #fff;
+font-weight: 600;
+}
+
 h1,h2,h5 {
     color: #b0cc36;
     font-weight: 400;
