@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to display the summary section
     function displaySummarySection(cartItems) {
         // Log the cart items to the console for debugging
-        console.log(cartItems);
+       
 
         const count = cartItems.length;
         const total = cartItems.reduce((sum, item) => sum + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
