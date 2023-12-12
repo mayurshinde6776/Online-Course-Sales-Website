@@ -1,0 +1,50 @@
+.nav-icon {
+    max-height: 80px;
+    width: auto;
+    transition: all 0.3s ease;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+/* Increase font size and weight for the navigation links */
+.navbar-nav a.nav-link {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Change text color when a link is clicked */
+
+.navbar-nav a.nav-link:hover {
+    color: #b0cc36;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+/* Button styles */
+.btn-custom {
+    background-color: #202c45;
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #b0cc36;
+    color: #202c45;
+    border-color: #b0cc36;
+}
+
+h2,
+h5 {
+    color: #b0cc36;
+    font-weight: 400;
+}
+
+.price-courses {
+    font-weight: 400;
+    color: #b0cc36;
+}

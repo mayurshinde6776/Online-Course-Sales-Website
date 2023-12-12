@@ -1,0 +1,76 @@
+.nav-icon {
+    max-height: 80px;
+    width: auto;
+    transition: all 0.3s ease;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+/* Increase font size and weight for the navigation links */
+.navbar-nav a.nav-link {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Change text color when a link is clicked */
+
+.navbar-nav a.nav-link:hover {
+    color: #b0cc36;
+}
+
+
+/* Button styles */
+.btn-remove {
+
+    color: #202c45;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.btn-remove:hover {
+
+    color: #b0cc36;
+    font-weight: 400;
+
+}
+
+h2,
+h5 {
+    color: #b0cc36;
+    font-weight: 400;
+}
+
+.price-courses {
+    font-weight: 400;
+    color: #b0cc36;
+}
+
+.cart-summary {
+    font-weight: 400;
+    color: #b0cc36;
+}
+
+/* Button styles of summary */
+.btn-custom {
+    background-color: #b0cc36;
+    color: #202c45;
+    border: solid 2px #fff;
+    font-weight: 600;
+}
+
+.btn-custom:hover {
+    background-color: #b0cc36;
+    color: #fff;
+    border-color: #b0cc36;
+}
+
+.cart-body {
+    border: none;
+}
+
+.card-border {
+    border: solid 1px #202c45;
+}
