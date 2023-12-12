@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Create title element
             const titleElement = document.createElement("h5");
             titleElement.textContent = item.title;
-            titleElement.classList.add("card-title" ,"h2");
+            titleElement.classList.add("card-title", "h2");
             cardBody.appendChild(titleElement);
 
             // Create price element
@@ -59,13 +59,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Create column for the remove link
             const removeColumn = document.createElement("div");
-            removeColumn.classList.add("col-md-2","mt-5");
+            removeColumn.classList.add("col-md-2", "mt-5");
 
             // Create remove link
             const removeLink = document.createElement("a");
             removeLink.href = "#";
             removeLink.textContent = "Remove";
-            removeLink.classList.add( "btn-remove");
+            removeLink.classList.add("btn-remove");
             removeLink.addEventListener('click', function () {
                 // Remove the item from the cart and update the display
                 const updatedCartItems = cartItems.filter(cartItem => cartItem.title !== item.title);
@@ -92,16 +92,16 @@ document.addEventListener("DOMContentLoaded", function () {
         displaySummarySection(cartItems);
     }
 
-   // Function to display the summary section
-function displaySummarySection(cartItems) {
-    // Log the cart items to the console for debugging
-    console.log(cartItems);
+    // Function to display the summary section
+    function displaySummarySection(cartItems) {
+        // Log the cart items to the console for debugging
+        console.log(cartItems);
 
-    const count = cartItems.length;
-    const total = cartItems.reduce((sum, item) => sum + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
+        const count = cartItems.length;
+        const total = cartItems.reduce((sum, item) => sum + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
 
-    const summaryContainer = document.getElementById("summary-container");
-    summaryContainer.innerHTML = `
+        const summaryContainer = document.getElementById("summary-container");
+        summaryContainer.innerHTML = `
         <div class="row mt-5">
             <div class="col-md-6">
                 <p class="cart-summary" >Courses in Cart: ${count}</p>
@@ -116,7 +116,7 @@ function displaySummarySection(cartItems) {
             </div>
         </div>
     `;
-}
+    }
 
 
     // Display cart items when the page is loaded

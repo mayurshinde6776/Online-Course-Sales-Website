@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const title = card.querySelector('.card-title').innerText;
             const price = card.querySelector('.price').innerText.split(':')[1].trim();
             const imagePath = card.querySelector('.card-img-top').getAttribute('src');
-            
+
             addToCart(title, price, imagePath);
             alert(`${title} added to the cart!`);
         });
