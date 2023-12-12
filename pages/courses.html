@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Courses</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -14,7 +15,7 @@
 <body>
 
        <!-- Navbar start -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav class="navbar mx-auto navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
                 <img src="../images/home/logo-e-retina.png" alt="Navbar Icon" width="30" height="30"
@@ -28,7 +29,7 @@
                 <div class="navbar-nav">
                     <a class="nav-link " aria-current="page" href="../index.html">Home</a>
                     <a class="nav-link" href="./pages/courses.html">Courses</a>
-                    <a class="nav-link" href="#">Cart</a>
+                    <a class="nav-link" href="./cart.html">Cart</a>
                         </div>
             </div>
         </div>
@@ -46,44 +47,75 @@
 
 
         <div class="row">
-            <!-- Card: MERN Stack -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/courses/mern.png" class="card-img-top" alt="MERN Stack">
-                    <div class="card-body">
-                        <h5 class="card-title">MERN Stack</h5>
-                        <p class="card-text">Master the MERN (MongoDB, Express.js, React.js, Node.js) stack and build
-                            dynamic and scalable web applications.</p>
-                        <a href="#" class="btn btn-custom">Add To Cart</a>
-                    </div>
-                </div>
+           <!-- Card: MERN Stack -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/mern.png" class="card-img-top" alt="MERN Stack">
+        <div class="card-body">
+            <h5 class="card-title">MERN Stack</h5>
+            <p class="card-text">Master the MERN (MongoDB, Express.js, React.js, Node.js) stack and build dynamic and
+                scalable web applications.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $99.99</span>
+                    <span class="rating">(4.8 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
             </div>
+            
+        </div>
+    </div>
+</div>
 
-            <!-- Card: MEAN Stack -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/courses/Mean.jpg" class="card-img-top" alt="MEAN Stack">
-                    <div class="card-body">
-                        <h5 class="card-title">MEAN Stack</h5>
-                        <p class="card-text">Dive into MEAN (MongoDB, Express.js, Angular.js, Node.js) development and
-                            create robust and scalable web applications.</p>
-                        <a href="#" class="btn btn-custom">Add To Cart</a>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Card: HTML & CSS -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/courses/html-css.jpg" class="card-img-top" alt="HTML & CSS">
-                    <div class="card-body">
-                        <h5 class="card-title">HTML & CSS</h5>
-                        <p class="card-text">Build a strong foundation with HTML5 and CSS3. Learn responsive design
-                            techniques to create visually appealing websites.</p>
-                        <a href="#" class="btn btn-custom">Add To Cart</a>
-                    </div>
-                </div>
+
+           <!-- Card: MEAN Stack -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/Mean.jpg" class="card-img-top" alt="MEAN Stack">
+        <div class="card-body">
+            <h5 class="card-title">MEAN Stack</h5>
+            <p class="card-text">Dive into MEAN (MongoDB, Express.js, Angular.js, Node.js) development and
+                create robust and scalable web applications.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $99.99</span>
+                    <span class="rating">(4.7 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
             </div>
+            
+        </div>
+    </div>
+</div>
+
+
+           <!-- Card: HTML & CSS -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/html-css.jpg" class="card-img-top" alt="HTML & CSS">
+        <div class="card-body">
+            <h5 class="card-title">HTML & CSS</h5>
+            <p class="card-text">Build a strong foundation with HTML5 and CSS3. Learn responsive design
+                techniques to create visually appealing websites.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $79.99</span>
+                    <span class="rating">(4.5 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
         </div>
     </section>
 
@@ -97,41 +129,69 @@
     </p>
 
     <div class="row">
-        <!-- Card: Machine Learning -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/ML.jpg" class="card-img-top" alt="Machine Learning">
-                <div class="card-body">
-                    <h5 class="card-title">Machine Learning</h5>
-                    <p class="card-text">Delve into the realm of Machine Learning and unlock the potential to build intelligent and predictive models.</p>
-                    <a href="#" class="btn btn-custom">Add To Cart</a>
-                </div>
+       <!-- Card: Machine Learning -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/ML.jpg" class="card-img-top" alt="Machine Learning">
+        <div class="card-body">
+            <h5 class="card-title">Machine Learning</h5>
+            <p class="card-text">Delve into the realm of Machine Learning and unlock the potential to build intelligent and predictive models.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $129.99</span>
+                    <span class="rating">(4.8 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
             </div>
+            
         </div>
+    </div>
+</div>
+
 
         <!-- Card: Artificial Intelligence -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/AI.jpg" class="card-img-top" alt="Artificial Intelligence">
-                <div class="card-body">
-                    <h5 class="card-title">Artificial Intelligence</h5>
-                    <p class="card-text">Explore the fascinating world of Artificial Intelligence and its applications in solving complex problems.</p>
-                    <a href="#" class="btn btn-custom">Add To Cart</a>
-                </div>
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/AI.jpg" class="card-img-top" alt="Artificial Intelligence">
+        <div class="card-body">
+            <h5 class="card-title">Artificial Intelligence</h5>
+            <p class="card-text">Explore the fascinating world of Artificial Intelligence and its applications in solving complex problems.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $149.99</span>
+                    <span class="rating">(4.6 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
             </div>
+            
         </div>
+    </div>
+</div>
+<!-- Card: Python for Data Science -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/python-p.jpeg" class="card-img-top" alt="Python for Data Science">
+        <div class="card-body">
+            <h5 class="card-title">Python for Data Science</h5>
+            <p class="card-text">Master Python programming for Data Science, and unleash the power of data analysis and visualization.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $129.99</span>
+                    <span class="rating">(4.4 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
 
-        <!-- Card: Python for Data Science -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/python-p.jpeg" class="card-img-top" alt="Python for Data Science">
-                <div class="card-body">
-                    <h5 class="card-title">Python for Data Science</h5>
-                    <p class="card-text">Master Python programming for Data Science, and unleash the power of data analysis and visualization.</p>
-                    <a href="#" class="btn btn-custom">Add To Cart</a>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -144,94 +204,151 @@
     </p>
 
     <div class="row">
-        <!-- Card: iOS Development -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/ios.png" class="card-img-top" alt="iOS Development">
-                <div class="card-body">
-                    <h5 class="card-title">iOS Development</h5>
-                    <p class="card-text">Master the art of iOS app development and create seamless, user-friendly applications for Apple devices.</p>
-                    <a href="#" class="btn btn-custom">Add To Cart</a>
-                </div>
+      <!-- Card: iOS Development -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/ios.png" class="card-img-top" alt="iOS Development">
+        <div class="card-body">
+            <h5 class="card-title">iOS Development</h5>
+            <p class="card-text">Master the art of iOS app development and create seamless, user-friendly applications for Apple devices.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $149.99</span>
+                    <span class="rating">(4.6 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
             </div>
+            
         </div>
+    </div>
+</div>
 
-        <!-- Card: Android Development -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/Android.jpg" class="card-img-top" alt="Android Development">
-                <div class="card-body">
-                    <h5 class="card-title">Android Development</h5>
-                    <p class="card-text">Dive into Android app development and learn to build feature-rich applications for the diverse Android ecosystem.</p>
-                    <a href="#" class="btn btn-custom">Add To Cart</a>
-                </div>
-            </div>
-        </div>
 
-        <!-- Card: React Native -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/react-native.jpg" class="card-img-top" alt="React Native">
-                <div class="card-body">
-                    <h5 class="card-title">React Native</h5>
-                    <p class="card-text">Explore cross-platform app development with React Native, allowing you to build apps for both iOS and Android platforms.</p>
-                    <a href="#" class="btn btn-custom">Add To Cart</a>
-                </div>
+     <!-- Card: Android Development -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/Android.jpg" class="card-img-top" alt="Android Development">
+        <div class="card-body">
+            <h5 class="card-title">Android Development</h5>
+            <p class="card-text">Dive into Android app development and learn to build feature-rich applications for the diverse Android ecosystem.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $129.99</span>
+                    <span class="rating">(4.4 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
             </div>
+            
         </div>
+    </div>
+</div>
+
+
+      <!-- Card: React Native -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/react-native.jpg" class="card-img-top" alt="React Native">
+        <div class="card-body">
+            <h5 class="card-title">React Native</h5>
+            <p class="card-text">Explore cross-platform app development with React Native, allowing you to build apps for both iOS and Android platforms.</p>
+            
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $149.99</span>
+                    <span class="rating">(4.6 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
     </div>
 </section>
 
 <!-- Programming Languages Section -->
 <section class="container mt-5">
-    <h2 class="mb-4">Programming Languages</h2>
+    <h2 class="mb-4" id="web-development">Programming Languages</h2>
     <p class="mb-4">
         Elevate your coding skills with our Programming Languages courses. Master the intricacies of versatile languages
         that power the digital world. Explore Java, JavaScript, and C# to build robust and scalable applications.
     </p>
 
     <div class="row">
-        <!-- Card: Java -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/java3.jpg" class="card-img-top" alt="Java">
-                <!-- Check image path -->
-                <div class="card-body">
-                    <h5 class="card-title">Java</h5>
-                    <p class="card-text">Dive into the world of Java programming and learn to develop powerful and
-                        cross-platform applications.</p>
-                    <a href="#" class="btn btn-custom ">Add To Cart</a>
-                </div>
-            </div>
-        </div>
+       <!-- Card: Java -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/java3.jpg" class="card-img-top" alt="Java">
+        <!-- Check image path -->
+        <div class="card-body">
+            <h5 class="card-title">Java</h5>
+            <p class="card-text">Dive into the world of Java programming and learn to develop powerful and cross-platform applications.</p>
 
-        <!-- Card: JavaScript -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/javScript.jpg" class="card-img-top" alt="JavaScript">
-                <!-- Check image path -->
-                <div class="card-body">
-                    <h5 class="card-title">JavaScript</h5>
-                    <p class="card-text">Unlock the potential of web development with JavaScript. Build interactive and
-                        dynamic user interfaces.</p>
-                    <a href="#" class="btn btn-custom ">Add To Cart</a>
-                </div>
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $129.99</span>
+                    <span class="rating">(4.5 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
             </div>
-        </div>
 
-        <!-- Card: C# -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="../images/courses/C-sharp.jpg" class="card-img-top" alt="C#">
-                <!-- Check image path -->
-                <div class="card-body">
-                    <h5 class="card-title">C#</h5>
-                    <p class="card-text">Explore the power of C# programming for building Windows applications, web
-                        services, and more.</p>
-                    <a href="#" class="btn btn-custom ">Add To Cart</a>
-                </div>
-            </div>
         </div>
+    </div>
+</div>
+
+
+     <!-- Card: JavaScript -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/javScript.jpg" class="card-img-top" alt="JavaScript">
+        <!-- Check image path -->
+        <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">Unlock the potential of web development with JavaScript. Build interactive and dynamic user interfaces.</p>
+
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $89.99</span>
+                    <span class="rating">(4.2 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+       <!-- Card: C# -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="../images/courses/C-sharp.jpg" class="card-img-top" alt="C#">
+        <!-- Check image path -->
+        <div class="card-body">
+            <h5 class="card-title">C#</h5>
+            <p class="card-text">Explore the power of C# programming for building Windows applications, web services, and more.</p>
+
+            <!-- Price, Rating, and Add To Cart Button -->
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text price-courses">
+                    <span class="price">Price: $109.99</span>
+                    <span class="rating">(4.5 <span class="star">&#9733;</span>)</span>
+                </p>
+                <a href="#" class="btn btn-custom">Add To Cart</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
     </div>
 </section>
 
@@ -254,6 +371,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-lZbdG5P1Uo4HxBmW2uxcAzLTAOd6iz7DfPlqad9F6wP4bYoZRHiCX0+2M9s5H2uP"
         crossorigin="anonymous"></script>
+        <script src="../js/courses.js"></script>
 
 </body>
 

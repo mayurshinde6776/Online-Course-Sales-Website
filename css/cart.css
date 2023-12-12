@@ -20,12 +20,36 @@
     color: #b0cc36;
 }
 
-.card:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.5s ease-in-out;
-}
 
 /* Button styles */
+.btn-remove {
+  
+    color: #202c45;
+    font-weight: 600;
+  
+}
+
+.btn-remove:hover {
+  
+    color: #b0cc36;
+    font-weight: 400;
+   
+}
+h2,h5 {
+    color: #b0cc36;
+    font-weight: 400;
+}
+
+.price-courses{
+    font-weight: 400;
+    color: #b0cc36;
+}
+.cart-summary{
+    font-weight: 400;
+    color: #b0cc36;
+}
+
+/* Button styles of summary */
 .btn-custom {
     background-color: #202c45;
     color: #fff;
@@ -36,13 +60,4 @@
     background-color: #b0cc36;
     color: #202c45;
     border-color: #b0cc36;
-}
-h2,h5 {
-    color: #b0cc36;
-    font-weight: 400;
-}
-
-.price-courses{
-    font-weight: 400;
-    color: #b0cc36;
 }

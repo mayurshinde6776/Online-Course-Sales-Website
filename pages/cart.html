@@ -1,0 +1,84 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+     <!-- Navbar start -->
+     <nav class="navbar mx-auto navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/home/logo-e-retina.png" alt="Navbar Icon" width="30" height="30"
+                    class="d-inline-block align-top nav-icon">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="./pages/courses.html">Courses</a>
+                    <a class="nav-link" href="./cart.html">Cart</a>
+                        </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Shopping Cart Section -->
+<section class="container mt-5">
+    <div class="row">
+        <!-- Courses Column -->
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title mb-4">Shopping Cart</h2>
+                    <div id="cart-container">
+                        <!-- Cart items will be dynamically added here using JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Column -->
+        <div class="col-md-4 mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <div id="summary-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ 
+  <!-- footer-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            Enark | Training Management & E-Learning
+        </a>
+    </div>
+</nav>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-3vAaP5A6e9HbHkFq4fFt8AHL4PgRf8xqgtNQ4E2hqqlLujj7eueeCy5K/FZh"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-lZbdG5P1Uo4HxBmW2uxcAzLTAOd6iz7DfPlqad9F6wP4bYoZRHiCX0+2M9s5H2uP"
+        crossorigin="anonymous"></script>
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>
